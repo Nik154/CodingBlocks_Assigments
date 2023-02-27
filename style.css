@@ -1,0 +1,165 @@
+*{
+    font-family: sans-serif;
+}
+
+.heading{
+    color:rgb(46, 169, 108);
+}
+
+.inside_body{
+    width : 75%;
+    /* border: 1px solid black; */
+    margin: 0px auto;
+}
+
+.container{
+    width: 60%;
+    float: left;
+    padding-top: 30px;
+}
+
+.aside_class{
+    width: 23%;
+    float: right;
+    margin-top: 64px;
+    background-color: rgb(202, 209, 215);
+    /* border : 2px solid green; */
+    border-top-style: solid;
+    border-top-color: rgb(46, 169, 108);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(46, 169, 108);
+    border-width: 5px;
+}
+
+.inside_body::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Navigation Bar Styling */
+
+.fixed_nav{
+    border: 1px solid white;
+    margin: 0px;
+    height: 12%;
+    position: relative;
+    background-color: rgb(238, 228, 201);
+}
+
+.heading_nav_title{
+    width: 376px;
+    /* border: 1px solid red; */
+}
+
+.heading_nav_title::before{
+    content: "\1F4DA";
+    /* float: left; */
+}
+
+.links
+{
+    position: absolute;
+    top: 7px;
+    bottom: 22px;
+    left: 802px;
+    /* float: right; */
+    padding: 11px;
+    /* border: 1px solid red; */
+    width: 308px;
+}
+
+.links_item
+{
+    padding: 12px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+a:link{
+    color:rgb(46, 169, 108);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(46, 169, 108);
+}
+
+a:hover{
+    color: rgb(93, 30, 152);
+    text-decoration: underline;
+    font-weight: 700px;
+    
+}
+
+
+/* Inside Container Body */
+
+.mentor_details{
+    padding: 4px 0px;
+    color : rgb(98, 133, 29);
+}
+
+.kartik_bhaiya_img{
+    width: 15%;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.coding_blocks_img{
+    width: 607px;
+}
+
+
+/* aside content styling */
+
+.aside_content{
+    /* border : 1px solid red; */
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.aside_heading
+{
+    padding-top: 10px ;
+    margin : 0px auto;
+    width : 50%;
+}
+
+.aside_link
+{
+    padding: 6px;
+    color : rgb(223, 54, 54);
+}
+
+.aside_item{
+    padding: 6px;
+}
+
+.list_item
+{
+    font-family: "Times New Roman", Times, serif;
+    padding: 2px;
+}
+
+.main_h1{
+    position: relative;
+    width: 76%;
+}
+
+
+/* Top element absolute styling */
+.absolute{
+    color: black;
+    width: 12%;
+    height: 58%;
+    text-align: center;
+    font-family: serif;
+    background-color: yellow;
+    font-size: 18px;
+    font-weight: 900px;
+    padding : 4px;
+    position: absolute;
+    top: 0;
+    left:600px;
+    border: 1px solid white;
+}
